@@ -1,0 +1,32 @@
+import javax.swing.*;
+import java.util.Scanner;
+
+public class Condicionales {
+    static void main() {
+        var age=18;
+        if (age>18) {
+            System.out.println("El usuario es mayor de edad");
+        }else if (age==18) {
+                System.out.println("El usuario acaba de cumplir 18");
+            } else{
+            System.out.println("El usuario NO es mayor de edad");
+        }
+
+        //Sentencia Switch
+        var day= 1;
+
+        switch(day){
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("martes");
+                break;
+            case 3:
+                System.out.println("Miercoles");
+                break;
+            default:
+                System.out.println("No es ni lunes ni martes ni miercoles");
+        }
+    }
+}

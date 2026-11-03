@@ -44,8 +44,22 @@ public class Strings {
         var b="Israel";
         var c=new String("Israel");
 
-        System.out.println(a==b);
-        System.out.println(a==c);//da false porque tenemos un objeto creado
-        System.out.println(a.equals(c));
+        System.out.println("a==b"+a==b);
+        System.out.println("a==c"+a==c);//da false porque tenemos un objeto creado
+        System.out.println(a.equals(c));//el .equals si da true porque compara el contenido
+
+        //TRIM Y REPLACE
+
+        //trim
+        System.out.println(" Hola, me llamo Israel ".trim());//Elimina espacios en blanco innecesarios
+
+        //replace
+        System.out.println(" Hola, me llamo Israel".replace(" ", "_"));/*Reemplaza el caracter
+        poniendo el caracter que se quiere reemplazar y despues el nuevo caracter */
+
+        //FORMAT
+        var age=19;
+        System.out.println(String.format("Hola Me llamo %s %s tengo %d años",name,sourname,age));
+
     }
 }
