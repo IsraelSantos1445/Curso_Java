@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.util.Scanner;
-
 public class Condicionales {
     static void main() {
         var age=18;
