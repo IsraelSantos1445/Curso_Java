@@ -17,5 +17,15 @@ public class Arrays {
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);
+
+        System.out.println(names[2]);
+        names[2]="IsraelSantos";
+        System.out.println(names[2]);
+        names[2]=null;
+        System.out.println(names[2]);
+        System.out.println(names.length);
+
+        boolean booleans[]=new boolean[5];
+        System.out.println(4);
     }
 }
