@@ -5,6 +5,9 @@ public class MethodsExcersices {
         resta(10,3);
         Cuadrado(2);
         par(3);
+        Longitud("amazon");
+        edades(16);
+        factorial(5);
     }
 
         //1. Crea un metodo que imprima "Te doy la bienvenida al curso de java desde cero"
@@ -33,5 +36,27 @@ public class MethodsExcersices {
         System.out.println("El numero es impar");
         return false;
     }
+    //6.implementa un metodo que reciba un String y retorne su longitud
+    public static void Longitud(String palabra){
+        System.out.println(palabra.length());
+
+    }
+    //7.crea un metodo que reciba una edad y retorne true si es mayor de edad y false en el caso contrario
+    public static boolean edades(int edad){
+        if ((edad>=18)){
+            System.out.println("Eres mayor de edad");
+            return true;
+        }
+        System.out.println("Eres menor de edad");
+        return false;
+    }
+    //8.escribe un metodo que reciba un numero y retorne su factorial
+    public static void factorial(int fac){
+        for(int i=1; i<=fac;i++){
+            fac*=i;
+            System.out.println(fac);
+        }
+    }
+
 
 }
